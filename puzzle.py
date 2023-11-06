@@ -59,10 +59,3 @@ def validate_board(board: list) -> bool:
             ind += 1
         return True
         
-import doctest
-print(doctest.testmod())
-# board1 = []
-            # for i in range(len(board)):
-            #     board1.append(board[i][ind:])
-            # rev = copy.copy(board1)
-            # rev.reverse()
